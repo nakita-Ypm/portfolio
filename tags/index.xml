@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on N Akita&#39;s blog</title>
+    <link>https://nakita-ypm.github.io/portfolio/tags/</link>
+    <description>Recent content in Tags on N Akita&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 28 Dec 2023 16:57:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://nakita-ypm.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2023</title>
+      <link>https://nakita-ypm.github.io/portfolio/tags/2023/</link>
+      <pubDate>Thu, 28 Dec 2023 16:57:36 +0000</pubDate>
+      
+      <guid>https://nakita-ypm.github.io/portfolio/tags/2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>event</title>
+      <link>https://nakita-ypm.github.io/portfolio/tags/event/</link>
+      <pubDate>Tue, 19 Sep 2023 16:57:36 +0000</pubDate>
+      
+      <guid>https://nakita-ypm.github.io/portfolio/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>函館市電LT大会</title>
+      <link>https://nakita-ypm.github.io/portfolio/tags/%E5%87%BD%E9%A4%A8%E5%B8%82%E9%9B%BBlt%E5%A4%A7%E4%BC%9A/</link>
+      <pubDate>Tue, 19 Sep 2023 16:57:36 +0000</pubDate>
+      
+      <guid>https://nakita-ypm.github.io/portfolio/tags/%E5%87%BD%E9%A4%A8%E5%B8%82%E9%9B%BBlt%E5%A4%A7%E4%BC%9A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dvorak</title>
+      <link>https://nakita-ypm.github.io/portfolio/tags/dvorak/</link>
+      <pubDate>Mon, 28 Aug 2023 16:57:36 +0000</pubDate>
+      
+      <guid>https://nakita-ypm.github.io/portfolio/tags/dvorak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yapc</title>
+      <link>https://nakita-ypm.github.io/portfolio/tags/yapc/</link>
+      <pubDate>Mon, 20 Mar 2023 16:57:36 +0000</pubDate>
+      
+      <guid>https://nakita-ypm.github.io/portfolio/tags/yapc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
