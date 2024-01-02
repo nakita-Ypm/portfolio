@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>perl on N Akita&#39;s blog</title>
+    <link>https://nakita-ypm.github.io/portfolio/tags/perl/</link>
+    <description>Recent content in perl on N Akita&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 02 Jan 2023 16:57:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://nakita-ypm.github.io/portfolio/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Perlの動的型付け</title>
+      <link>https://nakita-ypm.github.io/portfolio/post/perl_dy_type/</link>
+      <pubDate>Mon, 02 Jan 2023 16:57:36 +0000</pubDate>
+      
+      <guid>https://nakita-ypm.github.io/portfolio/post/perl_dy_type/</guid>
+      <description>Perlの動的型付けについて</description>
+    </item>
+    
+  </channel>
+</rss>
