@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2024 on N Akita&#39;s blog</title>
+    <link>https://nakita-ypm.github.io/portfolio/tags/2024/</link>
+    <description>Recent content in 2024 on N Akita&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 11 Feb 2024 12:57:14 +0000</lastBuildDate><atom:link href="https://nakita-ypm.github.io/portfolio/tags/2024/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YAPC::Hiroshima 2024</title>
+      <link>https://nakita-ypm.github.io/portfolio/post/event/yapc/yapc_2024/</link>
+      <pubDate>Sun, 11 Feb 2024 12:57:14 +0000</pubDate>
+      
+      <guid>https://nakita-ypm.github.io/portfolio/post/event/yapc/yapc_2024/</guid>
+      <description>YAPC::Hiroshima 2024 に参加</description>
+    </item>
+    
+  </channel>
+</rss>
