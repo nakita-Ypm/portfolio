@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Custom Dvorak">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Dvorak" />
+<meta property="og:description" content="Custom Dvorak" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nakita-ypm.github.io/portfolio/post/keyboard/dvorak/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-08-28T16:57:36+00:00" />
+<meta property="article:modified_time" content="2023-08-28T16:57:36+00:00" />
+
+<title>Dvorak | N Akita&#39;s blog</title>
+<link rel="manifest" href="/portfolio/manifest.json">
+<link rel="icon" href="/portfolio/favicon.png" >
+<link rel="canonical" href="https://nakita-ypm.github.io/portfolio/post/keyboard/dvorak/">
+<link rel="stylesheet" href="/portfolio/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/portfolio/flexsearch.min.js"></script>
+  <script defer src="/portfolio/en.search.min.422e09e5cb966169dac5aaa8313950442089db7c0691ee47602d8593c79b7834.js" integrity="sha256-Qi4J5cuWYWnaxaqoMTlQRCCJ23wGke5HYC2Fk8ebeDQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/portfolio/"><span>N Akita&#39;s blog</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li><a href="/portfolio"><strong>Home</strong></a></li>
+<li><a href="https://twitter.com/mini_bg_pro_N"><strong>X</strong></a></li>
+<li><a href="/portfolio/post"><strong>Blog</strong></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/portfolio/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Dvorak</strong>
+
+  <label for="toc-control">
+    
+    <img src="/portfolio/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#custom-dvorak">Custom Dvorak</a>
+      <ul>
+        <li><a href="#レイヤー0">レイヤー0</a></li>
+        <li><a href="#レイヤー1">レイヤー1</a></li>
+        <li><a href="#レイヤー2">レイヤー2</a></li>
+        <li><a href="#レイヤー3">レイヤー3</a></li>
+        <li><a href="#その他-1">その他</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="dvorak">
+  Dvorak
+  <a class="anchor" href="#dvorak">#</a>
+</h1>
+<p> Dvorakについて考える。</p>
+<h2 id="custom-dvorak">
+  Custom Dvorak
+  <a class="anchor" href="#custom-dvorak">#</a>
+</h2>
+<p> キーマップ沼にハマり、キーマップを考えるのがめんどくさくなった。<a href="https://www.kaufmann.no/roland/dvorak/">Programmer Dvorak</a>という配列を見つけたので、レイヤーを駆使し、ホームポジションから、手を動かなさくて済むように、カスタムキーマップを考えた。(改良の余地あり)</p>
+<h3 id="レイヤー0">
+  レイヤー0
+  <a class="anchor" href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc0">#</a>
+</h3>
+<p> Dvorak配列にする。</p>
+<p><img src="../img/dvorak0.png" alt="img" /></p>
+<h3 id="レイヤー1">
+  レイヤー1
+  <a class="anchor" href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc1">#</a>
+</h3>
+<p> 左右クリック、タブ切り替え、拡大縮小&hellip;。その他ショートカットキーを配置。<a href="https://karabiner-elements.pqrs.org/">karabiner-elements</a>で上書きしている部分もあります。</p>
+<p><img src="../img/dvorak1.png" alt="img" /></p>
+<h4 id="ショートカットキーよく使うものその他">
+  ショートカットキー(よく使うもの、その他&hellip;)
+  <a class="anchor" href="#%e3%82%b7%e3%83%a7%e3%83%bc%e3%83%88%e3%82%ab%e3%83%83%e3%83%88%e3%82%ad%e3%83%bc%e3%82%88%e3%81%8f%e4%bd%bf%e3%81%86%e3%82%82%e3%81%ae%e3%81%9d%e3%81%ae%e4%bb%96">#</a>
+</h4>
+<h5 id="guiで便利なもの">
+  GUIで便利なもの
+  <a class="anchor" href="#gui%e3%81%a7%e4%be%bf%e5%88%a9%e3%81%aa%e3%82%82%e3%81%ae">#</a>
+</h5>
+<table>
+<thead>
+<tr>
+<th>ショートカットキー</th>
+<th>効果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cmd + [</td>
+<td>戻る(ブラウザ)</td>
+</tr>
+<tr>
+<td>cmd + ]</td>
+<td>進む(ブラウザ)</td>
+</tr>
+<tr>
+<td>alt + cmd + →</td>
+<td>右タブ切り替え(ブラウザ)</td>
+</tr>
+<tr>
+<td>alt + cmd + ←</td>
+<td>左タブ切り替え(ブラウザ)</td>
+</tr>
+<tr>
+<td>ctr + →</td>
+<td>仮想デスクトップ切り替え(右)</td>
+</tr>
+<tr>
+<td>ctr + ←</td>
+<td>仮想デスクトップ切り替え(左)</td>
+</tr>
+<tr>
+<td>ctr + ↑</td>
+<td>ウィンドウの切り替え</td>
+</tr>
+<tr>
+<td>ctr + ↓</td>
+<td>ウィンドウの切り替え</td>
+</tr>
+<tr>
+<td>cmd + =</td>
+<td>拡大</td>
+</tr>
+<tr>
+<td>cmd + -</td>
+<td>縮小</td>
+</tr>
+<tr>
+<td>cmd + 0</td>
+<td>比率リセット</td>
+</tr>
+</tbody>
+</table>
+<h5 id="文字列移動">
+  文字列移動
+  <a class="anchor" href="#%e6%96%87%e5%ad%97%e5%88%97%e7%a7%bb%e5%8b%95">#</a>
+</h5>
+<table>
+<thead>
+<tr>
+<th>ショートカットキー</th>
+<th>効果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cmd + →</td>
+<td>右末尾</td>
+</tr>
+<tr>
+<td>cmd + ←</td>
+<td>左末尾</td>
+</tr>
+<tr>
+<td>cmd + ↑</td>
+<td>上末尾</td>
+</tr>
+<tr>
+<td>cmd + ↓</td>
+<td>下末尾</td>
+</tr>
+<tr>
+<td>opt + →</td>
+<td>右単語</td>
+</tr>
+<tr>
+<td>opt + ←</td>
+<td>左単語</td>
+</tr>
+</tbody>
+</table>
+<h5 id="文字列選択">
+  文字列選択
+  <a class="anchor" href="#%e6%96%87%e5%ad%97%e5%88%97%e9%81%b8%e6%8a%9e">#</a>
+</h5>
+<table>
+<thead>
+<tr>
+<th>ショートカットキー</th>
+<th>効果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shift + →</td>
+<td>文字列選択(右一文字)</td>
+</tr>
+<tr>
+<td>shift + ←</td>
+<td>文字列選択(左一文字)</td>
+</tr>
+<tr>
+<td>shift + ↑</td>
+<td>文字列選択(上一文字)</td>
+</tr>
+<tr>
+<td>shift + ↓</td>
+<td>文字列選択(上一文字)</td>
+</tr>
+<tr>
+<td>shift + cmd + →</td>
+<td>文字列選択(右末尾)</td>
+</tr>
+<tr>
+<td>shift + cmd + ←</td>
+<td>文字列選択(左末尾)</td>
+</tr>
+<tr>
+<td>shift + cmd + ↑</td>
+<td>文字列選択(上末尾)</td>
+</tr>
+<tr>
+<td>shift + cmd + ↓</td>
+<td>文字列選択(下末尾)</td>
+</tr>
+<tr>
+<td>shift + opt + →</td>
+<td>文字列選択(右単語)</td>
+</tr>
+<tr>
+<td>shift + opt + ←</td>
+<td>文字列選択(左単語)</td>
+</tr>
+</tbody>
+</table>
+<h5 id="その他">
+  その他
+  <a class="anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96">#</a>
+</h5>
+<table>
+<thead>
+<tr>
+<th>変換前</th>
+<th>変換後</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cmd + b</td>
+<td>cmd + n</td>
+</tr>
+<tr>
+<td>cmd + shift + y</td>
+<td>cmd + shift + t</td>
+</tr>
+<tr>
+<td>cmd + + ctr + f</td>
+<td>cmd + ctr + y</td>
+</tr>
+<tr>
+<td>cmd + shift + '</td>
+<td>cmd + shift + z</td>
+</tr>
+</tbody>
+</table>
+<h3 id="レイヤー2">
+  レイヤー2
+  <a class="anchor" href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc2">#</a>
+</h3>
+<p> Layer(2)を押下時。</p>
+<p><img src="../img/dvorak2.png" alt="img" /></p>
+<h3 id="レイヤー3">
+  レイヤー3
+  <a class="anchor" href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc3">#</a>
+</h3>
+<p> Layer(3)を押下時。</p>
+<p><img src="../img/dvorak3.png" alt="img" /></p>
+<h3 id="その他-1">
+  その他
+  <a class="anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96-1">#</a>
+</h3>
+<p> Dvorak を使うとショートカットキーがメチャクチャになる。
+対策として、<a href="https://karabiner-elements.pqrs.org/">karabiner-elements</a>で、ショートカットキーを Qwerty と同じにしている。</p>
+<h4 id="変換例押された時に上書きされるように設定している">
+  変換例(押された時に、上書きされるように設定している)
+  <a class="anchor" href="#%e5%a4%89%e6%8f%9b%e4%be%8b%e6%8a%bc%e3%81%95%e3%82%8c%e3%81%9f%e6%99%82%e3%81%ab%e4%b8%8a%e6%9b%b8%e3%81%8d%e3%81%95%e3%82%8c%e3%82%8b%e3%82%88%e3%81%86%e3%81%ab%e8%a8%ad%e5%ae%9a%e3%81%97%e3%81%a6%e3%81%84%e3%82%8b">#</a>
+</h4>
+<table>
+<thead>
+<tr>
+<th>変換前</th>
+<th>変換後</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cmd + '</td>
+<td>cmd + z</td>
+</tr>
+<tr>
+<td>cmd + q</td>
+<td>cmd + x</td>
+</tr>
+<tr>
+<td>cmd + j</td>
+<td>cmd + c</td>
+</tr>
+<tr>
+<td>cmd + k</td>
+<td>cmd + v</td>
+</tr>
+<tr>
+<td>cmd + x</td>
+<td>cmd + b</td>
+</tr>
+</tbody>
+</table>
+<h4 id="vimその他のツール">
+  Vim、その他のツール
+  <a class="anchor" href="#vim%e3%81%9d%e3%81%ae%e4%bb%96%e3%81%ae%e3%83%84%e3%83%bc%e3%83%ab">#</a>
+</h4>
+<p> Vim は、気合いで頑張るか、別レイヤーを組むなどの対策</p>
+<h4 id="日本語入力">
+  日本語入力
+  <a class="anchor" href="#%e6%97%a5%e6%9c%ac%e8%aa%9e%e5%85%a5%e5%8a%9b">#</a>
+</h4>
+<p> k を使った入力がかなりきつい。別の入力方式でも良いかも。</p>
+<ul>
+<li>大西配列</li>
+<li>Tomisuke配列</li>
+<li>Astarte配列</li>
+<li>DvorakJP</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#custom-dvorak">Custom Dvorak</a>
+      <ul>
+        <li><a href="#レイヤー0">レイヤー0</a></li>
+        <li><a href="#レイヤー1">レイヤー1</a></li>
+        <li><a href="#レイヤー2">レイヤー2</a></li>
+        <li><a href="#レイヤー3">レイヤー3</a></li>
+        <li><a href="#その他-1">その他</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on N Akita&#39;s blog</title>
+    <link>https://nakita-ypm.github.io/portfolio/post/</link>
+    <description>Recent content in Blog on N Akita&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Feb 2024 12:57:14 +0000</lastBuildDate>
+    <atom:link href="https://nakita-ypm.github.io/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YAPC::Hiroshima 2024</title>
+      <link>https://nakita-ypm.github.io/portfolio/post/event/yapc/yapc_2024/</link>
+      <pubDate>Sun, 11 Feb 2024 12:57:14 +0000</pubDate>
+      <guid>https://nakita-ypm.github.io/portfolio/post/event/yapc/yapc_2024/</guid>
+      <description>YAPC::Hiroshima 2024 に参加してきました。</description>
+    </item>
+    <item>
+      <title>Perlの動的型付け</title>
+      <link>https://nakita-ypm.github.io/portfolio/post/perl/perl_dy_type/</link>
+      <pubDate>Tue, 02 Jan 2024 16:57:36 +0000</pubDate>
+      <guid>https://nakita-ypm.github.io/portfolio/post/perl/perl_dy_type/</guid>
+      <description>Perlの動的型付け</description>
+    </item>
+    <item>
+      <title>2023年を振り返る</title>
+      <link>https://nakita-ypm.github.io/portfolio/post/summary/2023/</link>
+      <pubDate>Thu, 28 Dec 2023 16:57:36 +0000</pubDate>
+      <guid>https://nakita-ypm.github.io/portfolio/post/summary/2023/</guid>
+      <description>2023年を振り返る</description>
+    </item>
+    <item>
+      <title>函館市電LT</title>
+      <link>https://nakita-ypm.github.io/portfolio/post/event/hakodate/hakodate_tram/</link>
+      <pubDate>Tue, 19 Sep 2023 16:57:36 +0000</pubDate>
+      <guid>https://nakita-ypm.github.io/portfolio/post/event/hakodate/hakodate_tram/</guid>
+      <description>函館市電LT に参加してきました。</description>
+    </item>
+    <item>
+      <title>Dvorak</title>
+      <link>https://nakita-ypm.github.io/portfolio/post/keyboard/dvorak/</link>
+      <pubDate>Mon, 28 Aug 2023 16:57:36 +0000</pubDate>
+      <guid>https://nakita-ypm.github.io/portfolio/post/keyboard/dvorak/</guid>
+      <description>Custom Dvorak</description>
+    </item>
+    <item>
+      <title>YAPC::Kyoto 2023</title>
+      <link>https://nakita-ypm.github.io/portfolio/post/event/yapc/yapc_2023/</link>
+      <pubDate>Sat, 11 Feb 2023 12:57:14 +0000</pubDate>
+      <guid>https://nakita-ypm.github.io/portfolio/post/event/yapc/yapc_2023/</guid>
+      <description>YAPC::Kyoto 2023 に参加してきました。</description>
+    </item>
+  </channel>
+</rss>
